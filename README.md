@@ -2,7 +2,7 @@
 
 ## Overview
 
-an mitm (men in the middle) proxy server that handle and intercept any tcp protocol comming from target device. <br/>
+an mitm (man in the middle) proxy server that handle and intercept any tcp protocol comming from target device. <br/>
 it can handle tls communication and normal tcp communication, analyze incoming data and catch target device running services APIs calls in real-time.<br/>
 
 ## Features
