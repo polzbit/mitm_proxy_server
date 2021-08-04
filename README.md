@@ -21,8 +21,8 @@ using `PyDNS` module dns can resolve A records for incomming requests.<br/>
 
 ### Certificate Authority
 
-fake CA tool built using `PyOpenSSL` module, can generate '.pem' certificate files and generate a root CA public/private key pair<br/> 
-and use the private key to sign certificates.<br/>
+fake CA tool built using `PyOpenSSL` module, can generate '.pem' certificate files<br/> 
+generate a root CA public/private key pair and use the private key to sign certificates.<br/>
 in order for the proxy server to listen and forward encrypted data,<br/>
 it needs be able to performm tls handshakes and present tls certificate to authenticate their identity.<br/>
 with this tool we can sign a fake CA certificate with the CA private key and pass it to the proxy server.<br/>
